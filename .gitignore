@@ -1,0 +1,21 @@
+# Downloads / local datasets
+data/
+datasets/
+# Checkpoints and evaluation output
+outputs/
+*.pt
+*.pth
+*.ckpt
+# Python and notebook caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+# Local secrets and OS files
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
